@@ -1,0 +1,9 @@
+#form-contato {
+    width: 40vw;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.mat-form-field {
+    width: 98%;
+}

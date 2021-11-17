@@ -1,0 +1,55 @@
+#menu-mobile{
+    display: block;
+}
+#menu-desktop{
+    display: none;
+}
+
+
+#header-logotipo{
+    height: 50px;
+}
+
+#header-espaco{
+    flex: 1 1 auto;
+}
+
+.menu-button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin-left: 5px; 
+}
+
+#menu-slide{
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    left: -200px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: snow;
+    transition: 0.5s ease-in; 
+}
+#menu-slide.show{
+    left: 5px;
+}
+#menu-slide nav ul li{
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+@media screen and (min-width: 760px) {
+    #menu-mobile{
+        display: none;
+    }
+    #menu-desktop{
+        display: block;
+    }
+}
